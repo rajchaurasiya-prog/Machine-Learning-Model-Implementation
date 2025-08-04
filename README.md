@@ -15,20 +15,14 @@ The given Python program is a spam message classifier using Natural Language Pro
 Step-by-step Description
 1. Importing Libraries
 The script begins by importing essential libraries:
-
 pandas and numpy for data manipulation,
-
 matplotlib.pyplot and seaborn for visualization,
-
 sklearn for machine learning tasks such as model training, evaluation, and data preprocessing.
 
 2. Loading the Dataset
 The dataset is imported directly from a URL using pandas.read_csv() with tab-separated values (sep="\t"). It contains two columns:
-
 "label": either "ham" (not spam) or "spam", and
-
 "message": the text content of the SMS.
-
 This dataset is widely used for NLP and spam filtering demonstrations.
 
 3. Visualizing the Data
@@ -36,11 +30,8 @@ The script visualizes the distribution of spam vs ham messages using a bar chart
 
 4. Label Encoding
 Machine learning models cannot directly work with categorical values like "ham" and "spam", so these labels are converted to binary numeric values:
-
 "ham" becomes 0, and
-
 "spam" becomes 1.
-
 This transformation is necessary for model training.
 
 5. Text Vectorization
@@ -54,13 +45,9 @@ A Multinomial Naive Bayes (MNB) classifier is used, which is particularly suitab
 
 8. Model Evaluation
 After training, predictions are made on the test data (X_test), and the model’s performance is evaluated using:
-
 Accuracy score (percentage of correctly predicted messages),
-
 Classification report (precision, recall, F1-score), and
-
 Confusion matrix visualized as a heatmap using Seaborn.
-
 This comprehensive evaluation helps assess the model's effectiveness in detecting spam.
 
 9. Prediction Function
