@@ -22,8 +22,8 @@ The script begins by importing essential libraries:
 
 2. Loading the Dataset
 The dataset is imported directly from a URL using pandas.read_csv() with tab-separated values (sep="\t"). It contains two columns:
->"label": either "ham" (not spam) or "spam", and
->"message": the text content of the SMS.
+"label": either "ham" (not spam) or "spam", and
+"message": the text content of the SMS.
 This dataset is widely used for NLP and spam filtering demonstrations.
 
 3. Visualizing the Data
