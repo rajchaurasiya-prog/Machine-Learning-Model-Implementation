@@ -56,12 +56,3 @@ Finally, a user-defined function predict_message(msg) allows predicting new, uns
 Conclusion
 This script is a practical implementation of spam detection using classical NLP and machine learning methods. It demonstrates data loading, preprocessing, model training, evaluation, and prediction. It can be further improved by incorporating more advanced techniques like TF-IDF vectorization, stop-word removal, stemming, or even using deep learning models for improved performance on larger datasets.
 
-
-
-
-
-
-
-
-
-Ask ChatGPT
